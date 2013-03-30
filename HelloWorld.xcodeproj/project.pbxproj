@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE40E6E81706C55200CDC1F2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE40E6E71706C55200CDC1F2 /* icon.png */; };
+		DE40E6EA1706C55900CDC1F2 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE40E6E91706C55900CDC1F2 /* icon@2x.png */; };
 		DE864A561705F1210097AB6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE864A551705F1210097AB6B /* UIKit.framework */; };
 		DE864A581705F1210097AB6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE864A571705F1210097AB6B /* Foundation.framework */; };
 		DE864A5A1705F1210097AB6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE864A591705F1210097AB6B /* CoreGraphics.framework */; };
@@ -18,11 +20,11 @@
 		DE864A6C1705F1210097AB6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE864A6B1705F1210097AB6B /* Default-568h@2x.png */; };
 		DE864A6F1705F1210097AB6B /* IGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE864A6E1705F1210097AB6B /* IGViewController.m */; };
 		DE864A721705F1210097AB6B /* IGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE864A701705F1210097AB6B /* IGViewController.xib */; };
-		DE864A791706139C0097AB6B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE864A781706139C0097AB6B /* icon.png */; };
-		DE864A7B1706139F0097AB6B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE864A7A1706139F0097AB6B /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE40E6E71706C55200CDC1F2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DE40E6E91706C55900CDC1F2 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		DE864A521705F1210097AB6B /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE864A551705F1210097AB6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE864A571705F1210097AB6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,8 +41,6 @@
 		DE864A6D1705F1210097AB6B /* IGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGViewController.h; sourceTree = "<group>"; };
 		DE864A6E1705F1210097AB6B /* IGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGViewController.m; sourceTree = "<group>"; };
 		DE864A711705F1210097AB6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IGViewController.xib; sourceTree = "<group>"; };
-		DE864A781706139C0097AB6B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
-		DE864A7A1706139F0097AB6B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 		DE864A5C1705F1210097AB6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE864A781706139C0097AB6B /* icon.png */,
-				DE864A7A1706139F0097AB6B /* icon@2x.png */,
+				DE40E6E91706C55900CDC1F2 /* icon@2x.png */,
+				DE40E6E71706C55200CDC1F2 /* icon.png */,
 				DE864A5D1705F1210097AB6B /* HelloWorld-Info.plist */,
 				DE864A5E1705F1210097AB6B /* InfoPlist.strings */,
 				DE864A611705F1210097AB6B /* main.m */,
@@ -170,8 +170,8 @@
 				DE864A6A1705F1210097AB6B /* Default@2x.png in Resources */,
 				DE864A6C1705F1210097AB6B /* Default-568h@2x.png in Resources */,
 				DE864A721705F1210097AB6B /* IGViewController.xib in Resources */,
-				DE864A791706139C0097AB6B /* icon.png in Resources */,
-				DE864A7B1706139F0097AB6B /* icon@2x.png in Resources */,
+				DE40E6E81706C55200CDC1F2 /* icon.png in Resources */,
+				DE40E6EA1706C55900CDC1F2 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +307,7 @@
 				DE864A771705F1210097AB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
