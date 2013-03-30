@@ -18,6 +18,8 @@
 		DE864A6C1705F1210097AB6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE864A6B1705F1210097AB6B /* Default-568h@2x.png */; };
 		DE864A6F1705F1210097AB6B /* IGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE864A6E1705F1210097AB6B /* IGViewController.m */; };
 		DE864A721705F1210097AB6B /* IGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE864A701705F1210097AB6B /* IGViewController.xib */; };
+		DE864A791706139C0097AB6B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE864A781706139C0097AB6B /* icon.png */; };
+		DE864A7B1706139F0097AB6B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE864A7A1706139F0097AB6B /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		DE864A6D1705F1210097AB6B /* IGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGViewController.h; sourceTree = "<group>"; };
 		DE864A6E1705F1210097AB6B /* IGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGViewController.m; sourceTree = "<group>"; };
 		DE864A711705F1210097AB6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IGViewController.xib; sourceTree = "<group>"; };
+		DE864A781706139C0097AB6B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		DE864A7A1706139F0097AB6B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		DE864A5C1705F1210097AB6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE864A781706139C0097AB6B /* icon.png */,
+				DE864A7A1706139F0097AB6B /* icon@2x.png */,
 				DE864A5D1705F1210097AB6B /* HelloWorld-Info.plist */,
 				DE864A5E1705F1210097AB6B /* InfoPlist.strings */,
 				DE864A611705F1210097AB6B /* main.m */,
@@ -164,6 +170,8 @@
 				DE864A6A1705F1210097AB6B /* Default@2x.png in Resources */,
 				DE864A6C1705F1210097AB6B /* Default-568h@2x.png in Resources */,
 				DE864A721705F1210097AB6B /* IGViewController.xib in Resources */,
+				DE864A791706139C0097AB6B /* icon.png in Resources */,
+				DE864A7B1706139F0097AB6B /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
