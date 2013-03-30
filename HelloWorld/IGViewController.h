@@ -10,4 +10,7 @@
 
 @interface IGViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *helloText;
+- (IBAction)buttonPressed:(UIButton *)sender;
+
 @end

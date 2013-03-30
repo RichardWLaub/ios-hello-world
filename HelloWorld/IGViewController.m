@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    NSString *title = [sender titleForState:UIControlStateNormal];
+    _helloText.text = [NSString stringWithFormat:@"Hello, %@.", title];
+}
 @end
